@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+.borderNone {border:none !important;}
+.marT5 {margin-top:5px;}
+.marT10 {margin-top:10px;}
+.marT15 {margin-top:15px;}
+.marT20 {margin-top:20px;}
+.marT30 {margin-top:30px;}
+.marT40 {margin-top:40px;}
+.marT50 {margin-top:50px;}
+.marB10 {margin-bottom:10px;}
+.marB20 {margin-bottom:20px;}
+.marB30 {margin-bottom:30px;}
+.padL13 {padding-left:13px;}
+.padR13 {padding-right:13px;}
+.font20 {font-size:20px; }
+.lineHeight30 {line-height: 30px;}
+.padLR15 {padding-right:15px; padding-left:15px;}
+.marginRightNone {margin-right:0 !important;}
+.marginBottomNone {margin-bottom:0 !important;}
+.noBg {background:none !important;}
+.borderNoneTableTd tr td {border:none !important;}
+.alertType {font-size:14px !important; color:#E82542 !important;}
+body {margin:0; padding:0; font-family:Source Sans Pro; }
+ul,li {list-style:none;}
+.link {color:#e60d2d; text-decoration:none;}
+.link:gover {text-decoration:none;color:#e60d2d; }
+.main {background:url(../images/mainBg.jpg) no-repeat center top;}
+.logo {border:none; float:left; position:absolute;}
+.logo2 {border:none; float:left;}
+.header{background:url(../images/headerBg.png) repeat; height:62px;}
+.header2{background:#e82542 repeat;}
+.help {margin:14px 0 0 0; float:right;}
+.help a{background:none;border: medium none; text-decoration: none;}
+.login {margin:14px 15px 0 0; float:right;}
+.login a {background:none;border: medium none; text-decoration: none;}
+.login a:hover {background-color:; color: #FFFFFF;}
+.detailForm {width:500px; float:right; background:#fff;  margin: 35px 0 60px 0;}
+.registration {background-image:url(../images/login2.png) !important; background-repeat:no-repeat !important; background-position: 155px center !important; border: medium none; padding:12px 25px 12px 50px !important; text-decoration: none;}
+.search {background-image:url(../images/search.png) !important; background-repeat:no-repeat !important; background-position: 180px center !important;border: medium none; padding:12px 25px 12px 20px !important; text-decoration: none;}
+#myTab .active { background-color: #fff;}
+ 
+.tab-pane {padding: 0 19px;}
+.detailForm .select {width:100%; margin-bottom: 10px;}
+.submit {background:#e60d2d; font-weight:bold; font-size:16px; color:#fff; padding:7px 23px; border:none; float:right;margin-bottom: 20px !important;}
+.bannerContent {background:url(../images/contentBg.png) repeat;float: left;margin-top: 160px;padding: 4%; width:92%;color:#fff;}
+.bannerContent h1 {font-size:35px; padding:0; margin:0; font-weight:normal;}
+.bannerContentUl{background:url(../images/contentBg.png) repeat;float: left;margin:34px 0 0 0;color:#fff;padding: 4%; width:92%;}
+.bannerContentUl li {background:url(../images/bannerLiBg.png) no-repeat center left; font-size:22px; list-style:none;padding:10px 0 10px 30px; clear:both;float:left;}
+.bannerContentUl span {font-size:25px;  margin-bottom: 10px; float:left;}
+.middleContentPart {background:#e7e7e7; padding:40px 0;}
+.middleContentPart h2 {color:#7c6f6f; font-weight:300; font-size:41px; text-align:center;}
+.middleContentPart .para {color:#000000; font-weight:300; font-size:18px; text-align:center; line-height: 22px;}
+.middleContentPart h3 {color:#2e2e2e; font-weight:normal; font-size:20px; text-align:center; margin:0; padding:0;}
+.middleContentPart p {color:#737373; font-size:15px;}
+.middleListing {margin:50px 0 0 0; }
+.getStarted {background:#fff; padding:65px 0;}
+.getStarted h4 {font-size:32px; color:#414142; font-weight:300; margin:0 0 28px 0;}
+.footer {background:#353946; padding: 30px 0 0;}
+.footerCnt {padding: 24px 0 30px;}
+.footerCnt h5 {color: #fff;font-size: 20px;font-weight: 400;}
+.footerCnt ul {margin: 0;padding: 0;}
+.footerCnt ul li {font-size: 17px;line-height: 28px;}
+.footerCnt p   {color: #bdbdbd;}
+.footerCnt  a {color: #bdbdbd; text-decoration:none;transition: all 0.15s ease-in-out 0.05s;}
+.footerCnt a:hover {color: #fff;}
+.designed_div {background-color: #282b34;margin: 0;padding: 10px 0;width: 100%;}
+.copyright {color: #cdcdcd;float: left;font-size: 14px;padding: 0;}
+.designed {color: #cdcdcd;float: right;font-size: 14px;padding: 0;}
+.designed a {color: #cdcdcd; text-decoration:none;}
+.designed a:hover {color: #fff;transition: all 0.15s ease-in-out 0.05s;}
+.socialIcons {float: left;padding: 4px 5px 0 0;}
+.opacity {opacity:0.5;transition: all 0.25s ease-in-out 0.2s;}
+.opacity:hover {opacity:0.9;transition: all 0.25s ease-in-out 0.2s;}
+.contact_input_model {background:#E6E6E6 !important;border: 1px solid #D9D9D8;color: #000000;height: 30px;line-height: 30px;margin: 0 0 10px;padding: 0 7px !important; box-shadow:none !important;}
+.radioBtn {padding-right:15px; }
+.menu {margin-top:22px; float:left; display:none;}
+.menu li {float:left;}
+.menu li a {float:left; color:#fff; font-size:20px; text-decoration:none; padding:6px 20px 10px 20px;}
+.menu li a:hover {background:#d6223d; }
+.registrationForm {background:#efeef0; padding:15px; margin:35px 0 35px 0; width:67%; float:left;} 
+.registrationForm h2 {color:#8b1628; font-size:25px; margin:0; padding:0; font-weight:normal;}
+.registrationForm p {color:#696969; font-size:15px;}
+.registrationForm a {color:#e82542; text-decoration:none; background:none; border:none;}
+.registrationForm select{background:#DCD8DF;}
+.registrationForm input[type="file"] {width:100%;}
+.label_form {color: #696969;font-size: 15px;margin: 0;padding: 9px 0 5px;}
+.inputForm {background-color: #dcd8df !important; height: 35px !important; margin: 7px 0 10px; box-shadow:none !important;}
+.inputTextarea {background-color: #dcd8df !important; resize:none; min-height:75px;}
+.inputBtn {background-color: #e82542; color: #FFFFFF;font-size: 12px; font-weight:bold; margin:10px 0 20px 0;padding:10px 20px; text-transform:uppercase; border:none;}
+.quickSearch {background:#e82542; margin:35px 0 0 0;  color: #FFFFFF; width:29%; float:right;}
+.quickSearch h3 {font-size:18px; color:#fff; padding:0 15px; margin:0 0 15px 0; border-bottom:1px solid #bc233a;}
+.quickSearch .inputBox {background-color: #fff !important; margin: 7px 0 10px; box-shadow:none !important;}
+.quickSearch .inputSubmit {background-color: #8b1628; color: #FFFFFF;font-size: 12px; font-weight:normal; margin-top:10px; margin-bottom:20px; padding:6px 14px; text-transform:uppercase; border:none;}
+.quickSearch .labelTag {color: #FFFFFF;float: left;font-size: 15px;margin: 0;padding: 9px 0 5px;width: 38%;}
+.quickSearch select {width:100% !important;}
+.fields {float: left;padding:0;width:60%;}
+.headingForm {border-bottom: 1px solid #CCCCCC;font-size: 20px;margin: 30px 0 15px;padding: 0 0 11px;}
+.contactForm {background-color: #F1F0F0;float: left; margin: 0 0 20px; padding: 20px 0 0; width: 100%;}
+.contact_name {color: #737373;float: left;font-size: 18px;padding: 5px 0;text-align: right;width: 100%;}
+.address {color: #4B4B4B;float: left;font-size: 16px;line-height: 24px;width: 100%; margin:0 0 40px 0;}
+.dashLink {color:#333333 !important;}
+.dashLink:hover {color:#E82542 !important; text-decoration:underline;}
+.bordered {border:2px solid #d0c9be;}
+.sampleBtn {background-color: #E82542;border: medium none;color: #FFFFFF;font-size: 12px;font-weight: bold; margin-top:10px; padding:5px 15px;text-transform: uppercase;}
+.sampleBtn:hover {background-color: #d71733;}
+.searchResult {border-bottom:1px solid #ccc; padding:25px 2% 12px; float:left; width:96%; margin:0;}
+.searchResult:hover {background:#e6e6e6;}
+.result {width:65%; float:left; }
+.interested {float:right;}
